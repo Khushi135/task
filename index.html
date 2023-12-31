@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="login-container">
+        <h2>
+            <div class="logo-container">
+                <img src="C:\Users\Administrator\OneDrive\Pictures\Saved Pictures\Screenshot 2023-12-30 231318.png" alt="Logo">
+            </div>
+    </h2>
+        <form id="loginForm">
+            <div class="form-group">
+                <input type="text" id="username" name="username" placeholder="Username" oninput="validateEmail()">
+                <span id="emailError" class="error"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="password" id="password" name="password" placeholder="Password" oninput="validatePassword()">
+                <span id="passwordError" class="error"></span>
+            </div>
+
+            <button type="button" onclick="submitForm()">Login</button>
+           
+            <br/>
+            <br/>
+
+            <div class = "forgot-password">
+
+            <a href="#" class="forgot-password">Forgot your Password?</a>
+
+            </div>
+
+        </form>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

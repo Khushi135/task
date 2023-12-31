@@ -1,0 +1,155 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #111; /* Light black color for the entire page */
+}
+
+.login-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 60%;
+    background-color: #000; /* Dark black color for the login container */
+    color: #fff; /* White text color */
+    padding: 30px; /* Increased padding */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center align text content */
+    max-width: 400px; /* Increased maximum width */
+    width: 100%; /* Ensure it takes 100% width */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+z
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    background-color: #333; /* Dark gray background for input fields */
+    color: #fff; /* White text color for input fields */
+    border: none;
+    border-radius: 4px;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+} */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #111; /* Light black color for the entire page */
+}
+.form-group {
+    margin-bottom: 20px; /* Increased margin */
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px; /* Increased margin */
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #333; /* Dark gray background for input fields */
+    color: #fff; /* White text color for input fields */
+    border: none;
+    border-radius: 4px;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    width: 100%; /* Make the button occupy the entire width */
+    padding: 12px 0; /* Adjusted padding */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px; /* Added margin at the top */
+}
+
+.forgot-password {
+    color: #ccc; /* Light gray color for the "Forgot Password" text */
+    margin-top: 15px; /* Added margin at the top */
+    display: block;
+}
+
+/* Add this style for the logo container */
+.logo-container {
+    text-align: center;
+    margin-bottom: 20px; /* Adjust spacing */
+}
+
+
+/* Add this style for the logo */
+img {
+    width: 400px; /* Adjust the width as needed */
+    height: auto;
+}
+
+/* Add this style to increase the height of the login container */
+.login-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000; /* Dark black color for the login container */
+    color: #fff; /* White text color */
+    padding: 40px; /* Increased padding */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center align text content */
+    max-width: 400px; /* Increased maximum width */
+    width: 100%; /* Ensure it takes 100% width */
+}
+
+/* Add this style to set the background color inside the input boxes to white */
+input {
+    width: 100%;
+    padding: 12px; /* Increased padding */
+    box-sizing: border-box;
+    background-color: #fff; /* White background color inside input boxes */
+    color: #000; /* Black text color inside input boxes */
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 15px; /* Adjusted margin */
+}
+
+/* Rest of the styles... */
